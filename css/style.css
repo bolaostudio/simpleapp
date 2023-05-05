@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family: 'Roboto', normal;
+    font-family: 'Roboto', sans-serif;
 }
 .container{
     padding: 10px;
@@ -109,6 +109,7 @@ body{
     align-items: center;
     border-top: 1px solid #eaeaff;
     padding-top: 2rem;
+    font-family: 'Roboto', sans-serif;
 	
 }
 .copyrigth {
