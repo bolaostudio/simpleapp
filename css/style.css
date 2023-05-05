@@ -1,0 +1,154 @@
+/* global */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.global{
+    background: #eaeaff;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+}
+.global2{
+    background: #ffffff;
+    padding: 20px ;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Roboto', normal;
+}
+.container{
+    padding: 10px;
+}
+
+.container2{
+    paddin: 20px;
+    justify-content: center;
+    	align-items: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.screenshots{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.screenshots img{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-right: 0rem;
+}
+.card{
+    background: #c5bce1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    padding: 1rem;
+    margin-top: 2rem ;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    width:80%;
+    box-shadow: 0 0 10px 5px rgba(149, 0, 255, 0.1);
+}
+.card.dark-mode{
+    background: #060606;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #000;
+}
+.fa-solid{
+    color: black;
+    background-color:#c7c7d9;
+    border-radius: 180px;
+    padding: 1rem;
+    width: 40px;
+    height: 40px;
+}
+
+.fa-brands{
+    color:white;
+}
+.btn {
+   display: inline-block;
+   padding: 0.5rem 1rem;
+   background-color: #865cb8;
+   color: #fff;
+   border: none;
+   border-radius: 20px;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5;
+   text-align: center;
+   text-decoration: none;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   justify-content: center;
+   transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+   argin-top: 2rem;
+}
+
+.btn:hover {
+	background-color: #27272a;    
+	color: #fff;
+}
+.footer {
+    background: #27272a;
+    width:100%;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #eaeaff;
+    padding-top: 2rem;
+	
+}
+.copyrigth {
+	   font-size: 0.8rem;
+	   color: #6c757d;
+	   margin-top: auto;
+}
+.social {
+	   display: flex;
+	   margin-bottom: 1rem;
+}
+
+.social a {
+	   display: inline-block;
+	   font-size: 1.5rem;
+	   ftransition: color 0.15s ease-in-out;
+	   margin-right: 1rem;
+}
+
+.social a:hover {
+    color: #007bff;
+}
+.example-container{
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.examples{
+    width: 50%;
+    height: auto;
+    margin: 4px;
+    	
+}
+.fade-up {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1.0s ease-out, transform 0.3s ease-out;
+}
+
+.fade-up.visible{
+    opacity: 1;
+    transform: none;
+}
