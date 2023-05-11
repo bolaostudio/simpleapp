@@ -333,3 +333,14 @@ body{
     margin-right: 0rem;
 
 }
+@media (prefers-color-scheme: dark) {
+
+  .body.dark-scheme {
+
+      height: 100%;
+
+  background: black;
+
+  color: white;
+
+} 
